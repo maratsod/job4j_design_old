@@ -20,7 +20,6 @@ public class FlatMap<T> implements Iterator<T> {
         return cursor.hasNext();
     }
 
-
     @Override
     public T next() {
         if (!hasNext()) {
