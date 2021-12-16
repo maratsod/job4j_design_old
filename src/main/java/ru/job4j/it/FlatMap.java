@@ -39,4 +39,5 @@ public class FlatMap<T> implements Iterator<T> {
             System.out.println(flat.next());
         }
     }
+
 }
