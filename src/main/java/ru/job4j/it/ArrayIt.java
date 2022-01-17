@@ -11,10 +11,12 @@ public class ArrayIt implements Iterator<Integer> {
         this.data = data;
     }
 
+
     @Override
     public boolean hasNext() {
         return point < data.length;
     }
+
 
     @Override
     public Integer next() {
